@@ -38,3 +38,19 @@ Select
   # DISTINCT                       (SELECT DISTINCT Title FROM Column2;)                  EX: SELECT DISTINCT Title FROM FilmLocations;
   # LIMIT                          (SELECT * FROM TABLE1 LIMIT 25;)                       EX: SELECT * FROM FilmLocations LIMIT 25;
   # lIMIT - NOT FROM THE TOP       (SELECT * FROM FilmLocations LIMIT 15 OFFSET 10;)      EX: SELECT * FROM FilmLocations LIMIT 15 OFFSET 10;
+  #INSERT                          (INSERT INTO table_name (column1, column2, ... )       EX:  INSERT INTO Instructor(ins_id, lastname, firstname,city, country)
+                                    (VALUES (value1, value2, ... ) (;)                              VALUES(4, 'Saha', 'Sandip', 'Edmonton', 'CA');
+                                    
+  #UPDATE                           UPDATE table_name                                     EX:UPDATE Instructor 
+                                    SET column1 = value1, column2 = value2, ...              SET city='Toronto' 
+                                      WHERE condition                                        WHERE firstname="Sandip";
+                                        ;
+  #DELETE                           (DELETE FROM table_name)                              EX:DELETE FROM instructor
+                                    (WHERE condition)                                        WHERE ins_id = 6;
+                                    (;)
+
+
+
+
+
+
