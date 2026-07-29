@@ -1,1 +1,40 @@
 SQL - Help
+Stucture query language
+SQL is a lanuage used database
+RDBMS - Relational database Management System
+IBM DB2
+
+Commands explanition
+create a table
+insert
+  - add rows with the statment
+  - 
+select
+  To seee the data
+  DML - Data manipulation language
+  Can retreve a subset of Columns & rows
+    WHERE Clause - resticts the set
+      Requires predicate- True false or unknown
+    COUNT - NUmber of rows 
+    DISTINCT - remove Duplicates
+    LIMIT - Resctrict numbers in a database
+    
+Update
+Delete
+
+
+Signs
+  <=  -Greater Than
+  >= - Less tahn
+  <> - Not equal too
+
+
+Comamnds
+Select
+  # this is general syntax         (SELECT COLUMN1, COLUMN2, ... FROM TABLE_1 ;)          EX: SELECT Title, Director, Writer FROM FilmLocations;
+  # to get all Columns use "*"     (SELECT * FROM TABLE_1 ;)                              EX: SELECT * FROM FilmLocations;
+  # Where clause                   (SELECT <COLUMNS> FROM TABLE_1 WHERE <predicate> ;)    EX: SELECT Title, ReleaseYear, Locations FROM FilmLocations WHERE ReleaseYear>=2001;   
+  # Count                          (SELECT COUNT(*) FROM Column1;)                        EX: SELECT COUNT(*) FROM FilmLocations;
+  # DISTINCT                       (SELECT DISTINCT Title FROM Column2;)                  EX: SELECT DISTINCT Title FROM FilmLocations;
+  # LIMIT                          (SELECT * FROM TABLE1 LIMIT 25;)                       EX: SELECT * FROM FilmLocations LIMIT 25;
+  # lIMIT - NOT FROM THE TOP       (SELECT * FROM FilmLocations LIMIT 15 OFFSET 10;)      EX: SELECT * FROM FilmLocations LIMIT 15 OFFSET 10;
