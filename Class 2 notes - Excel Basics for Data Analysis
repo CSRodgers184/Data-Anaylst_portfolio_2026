@@ -1,0 +1,82 @@
+Module 1
+There are several spreadsheet applications available in the marketplace; the most commonly used and fully-featured spreadsheet application is Microsoft Excel. 
+
+Spreadsheets provide several advantages over manual calculation methods and they help you keep data organized and easily accessible. 
+
+As a Data Analyst, you can use spreadsheets as a tool for your data analysis tasks. 
+
+There are several elements that make up a workbook in a spreadsheet application. 
+
+The ribbon provides access to all the features and tools required to view, enter, edit, manipulate, clean, and analyze data in Excel. 
+
+There are several ways to navigate around a worksheet and workbook in Excel. 
+
+Module 2
+There are several features to modify views in Excel, and it is very straightforward to enter and edit data in a spreadsheet. 
+
+You can move or copy data within a worksheet or between worksheets, and you can use AutoFill to automatically enter data that is in a series or that fits a pattern. 
+
+You can format both cells and data in Excel. 
+
+A formula is made up of several component parts, and formulas can perform calculations using numbers directly or by using references to data in the worksheet. 
+
+You can use the Fill Handle in Excel to quickly copy formulas to other cells. 
+
+There are several different categories of function you can use for different purposes, and you can search for a function by name, or by category. 
+
+You can reference cells in the worksheet in your formulas by using relative, absolute, or mixed references. 
+
+You can make a formula absolute by adding a dollar symbol ($) to a cell reference. 
+
+If you get errors in your formulas, you can use the error-checking capabilities of Excel to resolve them. 
+
+Module 3
+It’s important to remove any duplicated or inaccurate data, and it’s important to remove any empty rows in your dataset. 
+
+There are several other types of data inconsistency that you may need to resolve, in order to properly clean your data:  
+
+Change the case of text
+
+Fix date formatting errors
+
+Trim whitepace from your data  
+
+You can use the Flash Fill and Text to Columns features in Excel to manipulate and standardize your data, and functions can also be used to help manipulate and standardize your data. 
+
+Module 4
+Before shaping your data, you need to visualize the final output, and ask yourself the following questions: 
+
+How big is the dataset? 
+
+What type of filtering is required to find the necessary information? 
+
+How should the data be sorted? 
+
+What type of calculations are needed? 
+
+There are several advantages to formatting your data as a table: 
+
+Automatic calculations even when filtering 
+
+Column headings never disappear 
+
+Banded rows to make reading easier 
+
+Tables will automatically expand when adding new rows 
+
+The most basic way of shaping your data is to sort and filter it:
+
+Sorting data helps you to organize it by a specified criteria, such as numerically, alphabetically, or chronologically. 
+
+Filtering our data makes it easier to control what data is displayed and what is hidden, based on filtered fields. 
+
+Excel Functions:
+
+Functions in Excel are arranged into multiple categories; including mathematical, statistical, logical, financial, and date and time-based. 
+
+Common functions for a data analyst include IF, IFS, COUNTIF, SUMIF, VLOOKUP, HLOOKUP 
+
+  
+Module 5
+
+Final
