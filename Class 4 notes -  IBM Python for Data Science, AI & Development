@@ -1,0 +1,378 @@
+Module 1
+Python can distinguish among data types such as integers, floats, strings, and Booleans.
+
+Integers are whole numbers that can be positive or negative.
+
+Floats are numbers that have decimal points; they can represent whole or fractional values.
+
+You can convert integers to floats using typecasting and vice-versa.
+
+You can convert integers and floats to strings.
+
+You can convert an integer or float to a Boolean: 0 becomes False, non-zero becomes True.
+
+Expressions in Python are a combination of values and operations used to produce a single result.
+
+Expressions perform mathematical operations such as addition, subtraction, multiplication, and so on.
+
+We can use // to perform integer division, which results in an integer value by discarding the fractional part.  
+
+Python follows the order of operations (BODMAS) to perform operations with multiple expressions.
+
+Variables store and manipulate data, allowing you to access and modify values throughout your code.
+
+The assignment operator "=" assigns a value to a variable.
+
+Assigning another value to the same variable overrides the previous value of that variable.
+
+You can perform mathematical operations on variables using the same or different variables.
+
+Modifying the value of one variable will affect other variables only if they reference the same mutable object.  
+
+Python string operations involve manipulating text data using tasks such as indexing, concatenation, slicing, and formatting.
+
+A string is usually written within double quotes or single quotes, including letters, white space, digits, or special characters.
+
+A string can be assigned to a variable and is an ordered sequence of characters.
+
+Characters in a string identify their index numbers, which can be positive or negative.
+
+Strings are sequences that support operations like indexing and slicing.
+
+You can input a stride value to perform slicing while operating on a string.
+
+Operations like concatenation and replication produce new strings, while finding the length of a string returns a number.
+
+You cannot modify an existing string; they are immutable. 
+
+ You can use escape sequences with a backslash (\) to change the layout of a string.  (For example, \n for a new line, \t for a tab, and \\ for a backslash, etc.)   
+
+In Python, you perform tasks such as searching, modifying, and formatting text data with its pre-built string methods.
+
+You apply a method to a string to change its value, resulting in another string. 
+
+You can perform actions such as changing the case of characters in a string, replacing items in a string, finding items in a string, and so on using pre-built string methods.
+
+
+Module2
+In Python, we often use tuples to group related data together.Tuples refer to ordered and immutable collections of elements.
+
+Tuples are usually written as comma-separated elements in parentheses “()".
+
+You can include strings, integers, and floats in tuples and access them using both positive and negative indices.
+
+You can perform operations such as combining, concatenating, and slicing on tuples.
+
+Tuples are immutable, so you need to create a new tuple to manipulate it.
+
+Tuples, termed nesting, can include other tuples of complex data types.
+
+You can access elements in a nested tuple through indexing.
+
+Lists in Python contain ordered collections of items that can hold elements of different types and are mutable, allowing for versatile data storage and manipulation.
+
+A list is an ordered sequence, represented with square brackets "[]".
+
+Lists possess mutability, rendering them akin to tuples.
+
+A list can contain strings, integers, and floats; you can nest lists within it.
+
+You can access each element in a list using both positive and negative indexing.
+
+Concatenating or appending a list will result in the modification of the same list.
+
+You can perform operations such as adding, deleting, splitting, and so forth on a list.
+
+You can separate elements in a list using delimiters.
+
+Aliasing occurs when multiple names refer to the same object.
+
+You can also clone a list to create another list.
+
+Dictionaries in Python are key-value pairs that provide a flexible way to store and retrieve data based on unique keys.
+
+Dictionaries consist of keys and values, both composed of string elements.
+
+You denote dictionaries using curly brackets.
+
+The keys necessitate immutability and uniqueness.
+
+The values may be either immutable or mutable, and they allow duplicates.
+
+You separate each key-value pair with a comma, and you can use color highlighting to make the key more visible.
+
+You can assign dictionaries to a variable.
+
+You use the key as an argument to retrieve the corresponding value.
+
+You can make additions and deletions to dictionaries.
+
+You can perform an operation on a dictionary to check the key, which results in a true or false output.
+
+You can apply methods to obtain a list of keys and values in a dictionary.
+
+Sets in Python are collections of unique elements, useful for tasks such as removing duplicates and performing set operations like union and intersection. Sets lack order.
+
+Curly brackets "{}" are helpful for defining elements of a set.
+
+Sets do not contain duplicate items.
+
+A list passed through the set function generates a set containing unique elements.
+
+You use “Set Operations” to perform actions such as adding, removing, and verifying elements in a set.
+
+You can combine sets using the ampersand "&" operator to obtain the common elements from both sets.
+
+You can use the Union function to combine two sets, including both the common and unique elements from both sets.
+
+The sub-set method is used to determine if two or more sets are subsets.
+
+
+Module 3
+Python conditions use “if” statements to execute code based on true/false conditions created by comparisons and Boolean expressions.
+
+Comparison operations require using comparison operators such as == (equal to), > (greater than), and < (less than).
+
+Python uses the "!=" operator to determine whether two values are not equal.
+
+You can compare integers, strings, and floats.
+
+Python branching directs program flow by using conditional statements (for example, if, else, elif) to execute different code blocks based on conditions or tests.
+
+You can use the "if" statement with conditions to define actions if true.
+
+To perform actions when all previous conditions are false, you can use the "else" statement without a condition.
+
+The elif statement allows for additional checks only if the initial condition is false.
+
+To execute various operations on Boolean values, we use Boolean logic operators.
+
+Python loops are control structures that automate repetitive tasks and iterate over data structures like lists or dictionaries.
+
+The range() function generates a sequence of numbers with a specified start, stop, and step value for loops in Python.
+
+A for loop in Python iterates over a sequence, such as a list, tuple, or string, and executes a block of code for each item in the sequence.
+
+A while loop in Python executes a block of code as long as a specified condition remains true.
+
+Python functions are reusable code blocks that perform specific tasks, take input parameters, and often return results, enhancing code modularity and reusability.
+
+You may or may not have written the codes that are often included in functions.
+
+Python has a set of built-in functions such as "len" to find the length of a sequence or "sum" to find the total sum of a sequence.
+
+The "sorted" function creates a new sorted list, while "sort" sorts items in the original list.
+
+You can also create your own functions in Python.
+
+To ensure clarity and organization and facilitate understanding and maintenance of the code, developers must document functions using a documentation string enclosed in three quotes.
+
+The help command will return the documentation defined for a particular function.
+
+A function can have multiple parameters.
+
+If a function does not include a return statement, it returns None by default.
+
+You can use the "pass" keyword in a function to indicate that it does nothing (a placeholder for future code).
+
+A function will usually perform more than one task.
+
+In Python, the scope of a variable determines where you can access or modify that variable. Global scope allows access from anywhere, while local scope restricts it to a block or function.
+
+In Python, a programmer defines a local variable within a specific block or function, which can only be accessed or modified within that block or function.
+
+In Python, a global variable is a variable defined at the top level of a program that any part of the code can access or modify. 
+
+Exception handling in Python is a mechanism for managing and responding to errors and exceptions that may occur during program execution, preventing them from crashing the program.
+
+In Python, you use the "try-except" statement to attempt a block of code and specify alternative actions to execute if an error occurs, allowing you to handle exceptions. 
+
+In Python, you use the "try-except-else" statement to attempt a block of code, handle exceptions in the "except" block, and execute code in the "else" block when no exceptions occur. 
+
+Python developers use the "try-except-else-finally" statement to attempt a block of code, catch exceptions in the "except" block, execute code in the "else" block when no exceptions occur, and ensure that the "finally" block always runs, regardless of whether exception was raised or not.
+
+In Python, objects are instances of classes that encapsulate data and behavior, serving as the foundation for creating and working with various data types and custom data structures.
+
+To determine the type of an object in Python, you can use the `type()` command.
+
+Methods may modify an object’s internal state, but the object’s type usually remains the same.
+
+Classes in Python are blueprints for creating objects, defining their attributes and methods, enabling code organization, and object-oriented programming.
+
+Function "init" is a special method used to initialize data attributes.
+
+We can create instances of a class in Python.
+
+Data attributes consist of the data defining the objects.
+
+Methods are functions that interact and change the data attributes.
+
+The method has a function that requires the self as well as other parameters.
+
+
+MOdule 4
+Python uses the open() function and allows you to read and write files, providing access to the content within the file for reading. It also allows overwriting it for writing and specifies the file mode (for example, r for reading, w for writing, a for appending).
+
+To read a file, Python uses an open function along with r.
+
+Python uses the open with function to read and process a file attribute, that is, from open to close.
+
+In Python, you use the open method to edit or overwrite a file.
+
+To write a file, Python uses the open function along with w.
+
+In Python, "a" indicates that the program has appended to the file.
+
+In Python, “\n” signifies that the code should start on a new line. 
+
+Python uses various methods to print lines from attributes.
+
+Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series.
+
+You import the file (panda) by using the import command followed by the file name. 
+
+In Python, you use the as command to provide a shorter name for the file.  
+
+In Pandas, you use a data frame (df) to specify the files to read.
+
+DataFrames consist of rows and columns.  
+
+You can create new DataFrames by using the column or columns of a specific DataFrame.  
+
+We can work with data in a DataFrames and save the results in different formats.
+
+In Python, you use the Unique method to determine unique elements in a column of the DataFrames.
+
+You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. 
+
+You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
+
+NumPy is a Python library for numerical and matrix operations, offering multidimensional array objects and a variety of mathematical functions to work with data efficiently.
+
+NumPy is a basis for Pandas.
+
+A NumPy array or ND array is similar to a list, usually of a fixed size with the same kind of element.
+
+A one-dimensional NumPy array is a linear sequence of elements with a single axis, like a traditional list, but optimized for numerical computations and array operations.
+
+You can access elements in a NumPy using an index. 
+
+You use the attribute dtype to get the data type of the array elements. 
+
+You use size and ndim to get the size and dimension of the array, respectively. 
+
+You can use indexing and slicing methods in NumPy. 
+
+Vector additions are widely used operations in Python. 
+
+Representing vector addition with line segments or arrows is useful.
+
+NumPy codes work much faster, which is helpful with lots of data.
+
+You perform vector subtraction by replacing the addition sign with a negative sign. 
+
+Multiplying an array by a scalar in Python entails multiplying each element of the array by the scalar value, leading to a new array in which each element scales by the scalar.
+
+Hadamard product refers to the element-wise multiplication of two arrays of the same shape, resulting in a new array where each element is the product of the corresponding elements in the input arrays.
+
+The dot product in Python is the sum of the element-wise products of two arrays, often used for vector and matrix operations to find the scalar result of multiplying corresponding elements and summing them.
+
+When working with NumPy, it is common to utilize libraries like Matplotlib to create graphs and visualizations from numerical data stored in NumPy arrays.
+
+A two-dimensional NumPy array is a grid-like structure with rows and columns suitable for representing data as a matrix or a table for numerical computations.
+
+In NumPy, "shape" refers to an array's dimensions (number of rows and columns), indicating its size and structure.
+
+You use the attribute "size" to obtain the size of an array. 
+
+You use rectangular attributes to access the various elements in an array.
+
+ You use a scalar to multiply elements in NumPy.
+
+
+
+Module 5
+
+Simple APIs in Python are application programming interfaces that provide straightforward and easy-to-use methods for interacting with services, libraries, or data, often with minimal configuration or complexity.
+
+An API lets two pieces of software talk to each other.
+
+Using an API library in Python entails importing the library, calling its functions or methods to make HTTP requests, and parsing the responses to access data or services provided by the API.
+
+Pandas API processes the data by communicating with the other software components.
+
+An Instance forms when you create a dictionary and then use the DataFrames constructor to create a Pandas object. 
+
+Method “head()” will display the mentioned number of rows from the top (default 5) of DataFrames, while method “mean()” will calculate the mean and return the values
+
+Rest APIs allow you to communicate through the internet, taking advantage of resources like storage, access more data, AI algorithms, and so on.
+
+HTTP methods transmit data over the internet.
+
+An HTTP message typically includes a JSON file with instructions for operations.
+
+HTTP messages containing JSON files are returned to the client as a response from web services.
+
+Dealing with time series data involves using the Pandas time series function. 
+
+You can get data for daily candlesticks and plot the chart using Plotly with the candlestick plot. 
+
+The HTTP (HyperText Transfer Protocol) transfers data, including web pages and resources, between a client (a web browser) and a server on the World Wide Web.
+
+The HTTP protocol is commonly used for implementing various types of REST APIs.
+
+An HTTP response includes information like the type of resource, length of resource, and so on
+
+Uniform resource locator (URL) is the most popular way to find resources on the web.
+
+URL is divided into three parts: scheme, internet address or base URL, and route
+
+The GET method is one of the popular methods of requesting information. Some other methods may also include the body.
+
+Response method contains the version and body of the response.
+
+POST submits data to the server, PUT updates data already on the server, DELETE deletes data from the server
+
+Requests is a Python library that allows you to send HTTP/1.1 requests easily
+
+You can modify the results of your query with the GET method.
+
+You can obtain multiple requests from a URL like name, ID, and so on with a Query string.
+
+Web scraping in Python involves extracting and parsing data from websites to gather information for various applications, using libraries like Beautiful Soup and requests.
+
+HTML comprises text surrounded by blue text elements enclosed in angular brackets called tags.
+
+You can select an HTML element on a web page to inspect the webpage.
+
+Web pages may also contain CSS and JavaScript along with HTML elements.
+
+Each HTML document is like an HTML Tree, which may contain strings and other tags.
+
+Each HTML table is comprised of table tags and is structured with elements such as rows, headers, body and so on.
+
+Tabular data can also be extracted from web pages using the `read_html` method in Pandas.
+
+Beautiful Soup in Python is a library for parsing and navigating HTML and XML documents, making extracting, and manipulating data from web pages more accessible.
+
+To parse a document, pass it through the Beautiful Soup constructor to get a beautiful soup object representing the document as a nested data structure.
+
+Beautiful soup represents HTML as a set of tree-like objects with methods to parse the HTML.
+
+Navigable string is like a Python string that supports beautiful soup functionality.
+
+find_all is a method used to extract content based on the tag’s name, its attributes, the text of a string, or some combination of these.
+
+The find_all method looks through a tag’s descendants and retrieves all descendants that match your filters.
+
+The result is a Python iterable like a list.
+
+File formats refer to the specific structure and encoding rules used to store and represent data in files, such as .txt for plain text or .csv for comma-separated values.
+
+Python works with different file formats such as CSV, XML, JSON, xlsx, and so on
+
+The extension of a file name will let you know what type of file it is and what it needs to open with.
+
+To access data from CSV files, we can use Python libraries such as Pandas.
+
+Similarly, different methods help parse JSON, XML, and other files.
