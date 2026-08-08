@@ -1,0 +1,78 @@
+
+
+
+Module 1
+
+The Data Manipulation Language (DML) statements read and modify data. 
+
+The search condition of the WHERE clause uses a predicate to refine the search.
+
+The SQL retrieves specific data from databases.
+
+The COUNT, DISTINCT, and LIMIT are expressions used with SELECT statements. 
+
+The real-world applications of SELECT statements.
+
+The INSERT, UPDATE, and DELETE are DML statements for populating and changing tables. 
+
+Module 2
+A database is a repository of data that provides functionality for adding, modifying, and querying the data.  
+
+SQL is a language used to query or retrieve data from a relational database.  
+
+The Relational Model is the most used data model for databases because it allows for data independence.  
+
+The primary key of a relational table uniquely identifies each tuple or row, preventing duplication of data and providing a way of defining relationships between tables.  
+
+SQL statements fall into two different categories: Data Definition Language (DDL) statements and Data Manipulation Language (DML) statements. 
+
+Module 3
+You can use the WHERE clause to refine your query results. 
+
+The search condition of the WHERE clause uses a predicate to refine the search. 
+
+You can use the wildcard character (%) as a substitute for unknown characters in a pattern. 
+
+You can use BETWEEN ... AND ... to specify a range of numbers. 
+
+You can sort query results into ascending or descending order, using the ORDER BY clause to specify the column to sort on. 
+
+You can group query results by using the GROUP BY clause.  
+Tools for database management that offer built-in functions for performing operations on data within the database itself.
+
+That when working with large datasets, you may save time by using built-in functions rather than first retrieving the data into your application and then executing functions on the retrieved data.
+
+You can use sub-queries to form more powerful queries than otherwise.
+
+You can use a sub-select expression to evaluate some built-in aggregate functions like the average function. 
+
+Derived tables or table expressions are sub-queries where the outer query uses the results of the sub-query as a data source.
+
+
+Module 4
+Magic commands are special commands that provide special functionalities.
+
+Cell magics are commands prefixed with two %% characters and operate on multiple input lines. 
+
+DB APIs are commands prefixed with two %% characters and operate on multiple input lines.
+
+The two main concepts in the Python DB API are Connection Objects and Query Objects.
+
+A database cursor is a control structure that enables traversal over the records in a database. 
+
+Pandas’ methods are equipped with common mathematical and statistical methods.  
+
+The pandas.read_csv() function is used to read the database CSV file.
+
+The sqlite3.connect() function is used to connect to a database.
+
+To use pandas to retrieve data from the database tables, load data using the read_sql method and select the SQL Select Query
+
+A categorical scatterplot is created using the swarmplot() method by the seaborn package.
+
+
+Module 5
+
+How to work with real-world datasets, gaining practical experience in handling and analyzing data. 
+
+The process of obtaining table and column details from databases, which is essential for understanding database structures and designing effective queries. 
