@@ -1,0 +1,104 @@
+BeautifulSoup: BeautifulSoup is a Python library used for web scraping purposes to pull the data out of HTML and XML files. It creates a parse tree from page source code that can be used to extract data in a hierarchical and more readable manner.
+
+from bs4 import BeautifulSoup
+
+import requests
+
+URL = "http://www.example.com"
+
+page = requests.get(URL)
+
+soup = BeautifulSoup(page.content, "html.parser")
+
+
+Scrapy: Scrapy is an open-source and collaborative web crawling framework for Python. It is used to extract the data from the website.
+
+import scrapy
+
+class QuotesSpider(scrapy.Spider):
+
+    name = "quotes"
+
+    start_urls = ['http://quotes.toscrape.com/tag/humor/',]
+
+    def parse(self, response):
+
+        for quote in response.css('div.quote'):
+
+            yield {'quote': quote.css('span.text::text').get()}
+
+Selenium: Selenium is a tool used for controlling web browsers through programs and automating browser tasks.
+
+from selenium import webdriver
+
+driver = webdriver.Firefox()
+
+driver.get("http://www.example.com")
+
+Applications of Web Scraping
+Web scraping is used in various fields and has many applications:
+
+Price Comparison: Services such as ParseHub use web scraping to collect data from online shopping websites and use it to compare the prices of products.
+
+Email address gathering: Many companies that use email as a medium for marketing, use web scraping to collect email ID and then send bulk emails.
+
+Social Media Scraping: Web scraping is used to collect data from Social Media websites such as Twitter to find out what's trending.
+
+Conclusion
+Web scraping is an essential skill in the fast-growing world of data science. It provides the ability to turn the web into a source of data that can be analyzed, processed, and used for a variety of applications. However, it's important to remember that one should use web scraping responsibly and ethically, respecting the terms of use or robots.txt files of the websites being scraped.
+
+
+YFINnxw python library
+
+The yfinance is a Python library with a user-friendly interface for downloading historical market data from Yahoo Finance. It lets you get historical stock prices, dividends, and other financial data for stocks, exchange-traded funds (ETFs), and other securities.
+
+This example shows code for using yfinance to download historical stock prices.
+
+import yfinance as yf
+
+# Download historical data for a stock
+
+msft = yf.Ticker("MSFT")
+
+msft_data = msft.history(period="max")
+
+# Display the downloaded data
+
+msft_data.head()
+
+Explanation for the above code:
+
+First, import the yfinance library using the alias yf.
+
+Then, create a Ticker object for the Microsoft stock (“MSFT”).
+
+Use the history method of the Ticker object to download the historical data for the stock. The period parameter of the history method specifies when you want to download the data. In this example, it is set to max to download the maximum available historical data.
+
+Here are some of the possible values for the period parameter and what they represent:
+
+period="1d": Download 1 day of historical data.
+
+period="5d": Download 5 days of historical data.
+
+period="1mo": Download 1 month of historical data.
+
+period="3mo": Download 3 months of historical data.
+
+period="6mo": Download 6 months of historical data.
+
+period="1y": Download 1 year of historical data.
+
+period="2y": Download 2 years of historical data.
+
+period="5y": Download 5 years of historical data.
+
+period="10y": Download 10 years of historical data.
+
+period="ytd": Download historical data since the beginning of the current year.
+
+period="max": Download all available historical data.
+
+Finally, you print the downloaded data using the head function. This downloaded data will display a Pandas data frame containing Microsoft's historical stock prices and other financial data.
+
+
+
